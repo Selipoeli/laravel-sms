@@ -89,7 +89,7 @@ class SmsRu implements Provider
     public function getClient()
     {
         if (!$this->client) {
-            return $this->client = new SmsRuApi\Api($this->getAuth());
+            return $this->client = new SmsRuApi\Api($this->getAuth(), new \Zelenin\SmsRu\Client\Client());
         }
 
         return $this->client;
