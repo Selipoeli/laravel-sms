@@ -1,5 +1,5 @@
 {
-    "name": "nutnet/laravel-sms",
+    "name": "selipoeli/laravel-sms",
     "description": "Package for sending SMS form your Laravel app, includes pre-installed sms providers and your custom.",
     "require": {
         "illuminate/support": ">=5.0"
